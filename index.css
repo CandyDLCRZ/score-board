@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    
+   
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #1B244A ;
+    Width: 575px;
+    Height: 385px;
+    margin: auto;
+    margin-top: 16px;
+
+    
+}
+
+.main-text {
+    font-family: Verdana;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 35px;
+    line-height: 35.89px;
+    text-align: center;
+    color: #EEEEEE;
+    margin-bottom: 0%;
+
+}
+
+@font-face {
+    font-family: timer-font;
+    src: url('timer-font.TTF');
+}
+.score-count {
+    font-family: timer-font;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    color:#F94F6D;
+    background: #080001;
+    width: 155;
+    height: 120;
+    opacity: 1;
+    border-radius: 5px;
+    margin-top: 21px;
+    margin-bottom: 26px;
+
+}
+
+.add-score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 40px;
+   
+}
+
+
+.add-1, .add-2, .add-3 {
+    
+    border: 2px solid #9AABD8;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background: none;
+    cursor: pointer;
+    
+    font-family: timer-font;
+    font-weight: 400;
+    font-size: 18px;
+    color: #9AABD8;
+    line-height: 40px;
+    margin-right:auto;
+    margin-left:auto;
+    
+}
+
+.resethome-btn {
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #a7afc5;
+}
+
+.subhome-btn {
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #a7afc5;
+}
+
+
+.resetguest-btn {
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #a7afc5;
+}
+
+.subguest-btn {
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #a7afc5;
+}

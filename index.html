@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="main-text">
+                <h3>HOME</h3>
+                    <p id="home-score" class="score-count">0</p>
+                    
+                    <div class="add-score">
+                        <button class="add-1" onclick="incrementh1()">+1</button>                         
+                        <button class="add-2" onclick="incrementh2()">+2</button> 
+                        <button class="add-3" onclick="incrementh3()">+3</button>
+                    </div>
+
+                    <div class="resetsubhome-btn">
+                        <button class="resethome-btn" onclick="resetHome()">RESET</button>                         
+                        <button class="subhome-btn" onclick="decrementHome()">-1</button> 
+                    </div>
+
+            </div>
+            <div class="main-text">
+                <h3>GUEST</h3>
+                    <p id="guest-score" class="score-count">0</p>
+
+                    <div class="add-score">
+                        <button class="add-1" onclick="incrementg1()">+1</button>                         
+                        <button class="add-2" onclick="incrementg2()">+2</button> 
+                        <button class="add-3" onclick="incrementg3()">+3</button>
+                    </div>
+
+                    <div class="resetsubguest-btn">
+                        <button class="resetguest-btn" onclick="resetGuest()">RESET</button>                         
+                        <button class="subguest-btn" onclick="decrementGuest()">-1</button> 
+                    </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
